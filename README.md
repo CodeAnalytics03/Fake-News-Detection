@@ -1,17 +1,21 @@
-# Fake News Detection
+# Fake News Intelligence System
 
-## About this Project
+An end-to-end NLP and Machine Learning project that classifies news as REAL or FAKE using TF-IDF, Logistic Regression, and SHAP explainability.
 
-This project aims to develop a machine learning solution for detecting and classifying fake news articles. It uses natural language processing techniques to analyze news content and determine its authenticity.
+## Features
+- Real-time fake news prediction
+- Explainable AI with SHAP
+- Light/Dark mode UI
+- Streamlit web app
 
-### Key Features
-- Text preprocessing and feature extraction
-- Multiple classification algorithms
-- Real-time news analysis capability
-- Performance metrics and evaluation
-
-### Technologies
+## Tech Stack
 - Python
-- scikit-learn / TensorFlow
-- NLP libraries (NLTK, spaCy)
-- pandas, numpy
+- Scikit-learn
+- NLTK
+- Streamlit
+- SHAP
+
+## Run locally
+```bash
+pip install -r requirements.txt
+streamlit run app/app.py
