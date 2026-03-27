@@ -1,0 +1,20 @@
+# Virtual env (if you recreate later)
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & models (VERY IMPORTANT)
+data/
+models/
+
+# Env files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
