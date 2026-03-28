@@ -34,8 +34,8 @@ st.markdown(
 # ---------------- LOAD MODEL ----------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-model = joblib.load(os.path.join(BASE_DIR, "..", "models", "fake_news_model.pkl"))
-vectorizer = joblib.load(os.path.join(BASE_DIR, "..", "models", "tfidf_vectorizer.pkl"))
+model = joblib.load(os.path.join(BASE_DIR, "models", "fake_news_model.pkl"))
+vectorizer = joblib.load(os.path.join(BASE_DIR, "models", "tfidf_vectorizer.pkl"))
 
 # ---------------- SHAP ----------------
 explainer = shap.LinearExplainer(model, vectorizer.transform(["sample text"]))

@@ -10,7 +10,6 @@ __pycache__/
 
 # Data & models (VERY IMPORTANT)
 data/
-models/
 
 # Env files
 .env
